@@ -1,0 +1,29 @@
+{
+  "name": "web",
+  "version": "0.0.0",
+  "private": true,
+  "browserslist": {
+    "development": [
+      "last 1 version"
+    ],
+    "production": [
+      "defaults"
+    ]
+  },
+  "dependencies": {
+    "@redwoodjs/auth-supertokens-web": "6.6.0",
+    "@redwoodjs/forms": "6.6.0",
+    "@redwoodjs/router": "6.6.0",
+    "@redwoodjs/web": "6.6.0",
+    "prop-types": "15.8.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "supertokens-auth-react": "~0.34.0",
+    "supertokens-web-js": "~0.7.0"
+  },
+  "devDependencies": {
+    "@redwoodjs/vite": "6.6.0",
+    "@types/react": "18.2.37",
+    "@types/react-dom": "18.2.15"
+  }
+}
